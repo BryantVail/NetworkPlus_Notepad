@@ -1,9 +1,7 @@
-//1.1 Meet the frame
+//1.2 The MAC
 quick review:
-  Frames/Packets:
-    Definition: "Devices on a network send & recieve data in discreet chunks",
-    Capacity:   1500 bytes || 12,000 bits
-    note:       "Created & destroyed inside the NIC (Net Interface Card)
+  HUB:
+    repeater, all devices w/the macID can receive
 
 
 
