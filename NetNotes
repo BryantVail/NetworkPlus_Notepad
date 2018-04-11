@@ -4,15 +4,26 @@ quick review:
     repeater, all devices w/the macID can receive
   MAC:
     Media Access Control Address
-    typically 48 bits / 6 sets of hex
+    48 bits / 6 sets of hex
     hexadecimal 
-      first 3 hexChars are the manuf
+      Manuf:
+        first 3 hexChars are the 
+      each hex: 4 binary chars
+        each binary char = 8bits
+    NIC's use MAC addresses to filter whether to process a frame. 
       
     
     
   Test Tips:
     ipconfig /all
 
+Packet:
+  macFrom, 
+  macTo, 
+  body, 
+  CRC
+    Cyclic Redundancy Check, 
+    if data is bad, then re-send
 
 
 
