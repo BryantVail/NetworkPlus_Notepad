@@ -1,5 +1,16 @@
 //1.3 Broadcast vs Unicast
-quick review:
+
+return Address: 
+	kept
+BroadcastAddress:
+	"ff-ff-ff-ff-ff-ff"
+	VeryImportant!
+		Broadcast: "Hey whoever is 'Mike's PC', please take this packet"
+			this is done w/out a MAC address
+	Broadcast Domain:
+		group of computers that can hear the same broadcast
+		ex:hub
+	
  
 
 
