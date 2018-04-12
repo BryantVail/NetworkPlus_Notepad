@@ -1,36 +1,15 @@
-//1.6 Packets & Ports
+//1.7 Models
 /*
-In this video, 
-	you will see how TCP/IP networks make use of port numbers to keep track of 
-	multiple connections between two computer systems.
+This video covers 
+	the concept of network models in computer networking systems.
 
 */
 
-just received data from some CPU on the internet
-	we've got all these apps open over the network
-	what is this data for, 
-		just a piece of data afterall
-	
-Find Out How to Send & receive data
-	portNumbers: 
-		unique to individual applications
-			port:80/web
-		filters data to the ports that the application listens on
-		to & from
-	"Well Known Port Numbers":
-		first 1,024 reserved
-		UpTo: ~65,536
-	"TCP":
-		Transmission Control Protocol
-		"Connection Oriented":
-			conversation between 2 CPUs to make sure it gets there in full"
-		"Sequencing Number":
-			"for re-assembly"
-		"Acknowledgement":
-	"UDP":
-		not connection oriented
-		if the data does not come in good, the sender does not know
-		no Acknowledgement
+Network Models
+	Represent how networks function
+	Types of Network Models
+		OSI 7-Layer Model
+		TCP/IP model
 		
 		
 
