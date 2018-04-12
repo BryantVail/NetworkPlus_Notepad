@@ -1,23 +1,23 @@
 //1.5 Intro to IP Addressing
+/*
+In this episode, Mike introduces you to logical addressing. 
+	You will learn how it is used to enable larger groups of computers into networks. 
+	You will then explore the most commonly used addressing scheme today - IP addresses.
 
+*/
 
-
-
+Logical Addressing
+	IP addressing
+		32.44.17.231
+	Not Fixed (Necessarily)
+	32.44.17._
+		Network
+	110.14.56._
+		different Network || "Broadcast Domain"
+		
+Router
+	router(many with built in switches)
 	
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
