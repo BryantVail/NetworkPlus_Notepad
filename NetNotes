@@ -4,7 +4,11 @@ Hubs:
 	"Repeater"
 	not used anymore
 Switch:
-	
+	"Smart"
+	KeyValue
+		MAC & port#/destination
+		only sends to single device
+			instead of: broadcasting
 
 
 	
