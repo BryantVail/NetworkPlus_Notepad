@@ -18,6 +18,12 @@ Logical Addressing
 Router
 	router(many with built in switches)
 	
+InterNet Communication
+	frame (packets in frames) [macTo, macFrom, packet, CRC (Cyclical R
+		destination 	IP
+		Source		IP
+	Default Gateway
+	
 
 
 
