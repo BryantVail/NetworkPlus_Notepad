@@ -37,7 +37,7 @@ Network Models
 		
 				
 		TCP/IP model
-			1 - Network Interface Layer
+			1 - Network Interface Layer (sometimes called: "Link" Layer in TCP/IP)
 				phys cabling, MAC, NICs, (hardware, NOT routers)
 			2 - Internet
 				IP addresses
