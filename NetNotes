@@ -20,6 +20,8 @@ Network Models
 				logical addresses
 					IP addresses
 					router
+				after filtered by IP
+					TCP segment is left
 			4 - Transport Layer
 				packets
 					Assemble - Disassemble 
