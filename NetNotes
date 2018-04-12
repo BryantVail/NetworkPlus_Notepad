@@ -1,7 +1,8 @@
-//1.7 Models
+//1.8 OSI Model vs. TCP/IP model
 /*
 This video covers 
-	the concept of network models in computer networking systems.
+	In this video, you will learn about the 
+		two models used in computer networking and the differences between them.
 
 */
 
@@ -9,7 +10,48 @@ Network Models
 	Represent how networks function
 	Types of Network Models
 		OSI 7-Layer Model
+			1 - Physical
+				cabling, etc
+			2 - data link layer
+				MAC address
+				NIC
+				Switches
+			3 - Network Layer
+				logical addresses
+					IP addresses
+					router
+			4 - Transport Layer
+				packets
+					Assemble - Disassemble 
+			5 - Session 
+				connection between 2 systems
+					TCP?
+					email?
+					LAN comms?
+			6 - Presentation
+				Format data into a form that the application can read
+			7 - Application
+				Microsoft word:
+				API: 
+					definition of "smarts" that allow the application to be "network aware"
+		
+				
 		TCP/IP model
+			1 - Network Interface Layer
+				phys cabling, MAC, NICs, (hardware, NOT routers)
+			2 - Internet
+				IP addresses
+					routers
+			3 - Transport
+				assemble/ disassemble
+				everything it takes for that data to get to other machine
+				(Session layer of OSI may be thought of here unnoficially)
+			4 - Application
+				OSI
+					application, presentation & session layer
+				Different than OSI
+				application
+					email, ftp, telnet
 		
 		
 
