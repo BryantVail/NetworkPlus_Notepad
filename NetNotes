@@ -17,15 +17,27 @@ Logical Addressing
 		
 Router
 	router(many with built in switches)
+	looks at IP addresses
+	connects multiple LANs
 	
 InterNet Communication
 	frame (packets in frames) [macTo, macFrom, packet, CRC (Cyclical Redundancy Check)]
 		destination 	IP
 		Source		IP
 		"IP Packet":
+			within frames (always within the frame, never alone)
+				destinationIP
+				fromIP
+				defaultGateway
+				destinationMAC
+				routerMAC
+		router strips away "The Frame" stuff
+			leaving only the IP packet
+			"Routing Table"
 			
 	Default Gateway
-		When the router
+		the address to the router itself
+		
 	
 
 
