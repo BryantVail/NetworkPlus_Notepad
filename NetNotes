@@ -19,10 +19,13 @@ Router
 	router(many with built in switches)
 	
 InterNet Communication
-	frame (packets in frames) [macTo, macFrom, packet, CRC (Cyclical R
+	frame (packets in frames) [macTo, macFrom, packet, CRC (Cyclical Redundancy Check)]
 		destination 	IP
 		Source		IP
+		"IP Packet":
+			
 	Default Gateway
+		When the router
 	
 
 
