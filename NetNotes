@@ -1,44 +1,14 @@
-//1.5 Intro to IP Addressing
+//1.6 Packets & Ports
 /*
-In this episode, Mike introduces you to logical addressing. 
-	You will learn how it is used to enable larger groups of computers into networks. 
-	You will then explore the most commonly used addressing scheme today - IP addresses.
+In this video, 
+	you will see how TCP/IP networks make use of port numbers to keep track of 
+	multiple connections between two computer systems.
+
+
 
 */
 
-Logical Addressing
-	IP addressing
-		32.44.17.231
-	Not Fixed (Necessarily)
-	32.44.17._
-		Network
-	110.14.56._
-		different Network || "Broadcast Domain"
-		
-Router
-	router(many with built in switches)
-	looks at IP addresses
-	connects multiple LANs
-	
-InterNet Communication
-	frame (packets in frames) [macTo, macFrom, packet, CRC (Cyclical Redundancy Check)]
-		destination 	IP
-		Source		IP
-		"IP Packet":
-			within frames (always within the frame, never alone)
-				destinationIP
-				fromIP
-				defaultGateway
-				destinationMAC
-				routerMAC
-		router strips away "The Frame" stuff
-			leaving only the IP packet
-			"Routing Table"
-			
-	Default Gateway
-		the address to the router itself
-		
-	
+
 
 
 
