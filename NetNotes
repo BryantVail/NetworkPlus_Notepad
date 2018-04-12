@@ -25,6 +25,7 @@ Network Models
 			4 - Transport Layer
 				packets
 					Assemble - Disassemble 
+				sending || receiving
 			5 - Session 
 				connection between 2 systems
 					TCP?
