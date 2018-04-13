@@ -5,6 +5,20 @@ In this video, you will learn how to take an Ethernet frame through the processe
 
 */
 
+1. Frame Into NIC
+	look at incoming mac
+		is it for me?
+		verify ethernet frame is good
+		strip MACs, 
+			persist RETURN  mac
+	Packet
+
+
+
+= = = =
+Previous Video notes
+= = = =
+
 Network Models
 	Represent how networks function
 	Types of Network Models
@@ -20,11 +34,12 @@ Network Models
 					IP addresses
 					router
 				after filtered by IP
-					TCP segment is left
+					**"TCP segment" is left**
 			4 - Transport Layer
 				packets
 					Assemble - Disassemble 
 				sending || receiving
+				"Sequencing"
 			5 - Session 
 				connection between 2 systems
 					TCP?
