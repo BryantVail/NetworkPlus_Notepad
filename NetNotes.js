@@ -12,14 +12,19 @@ This video explores
 
 Coax: {
 	"Coaxial":
-		
+		"
 	"cable standard":
 			`RG-${num}`,
 				
 	"cable technology":
 		center:
-			conductor
-			insulation
+			center: conductor
+				outside:
+					insulation
+						looks like white plastic
+				outsideInsulator:
+					another conductor
+				
 			outer insulation
 		
 }
