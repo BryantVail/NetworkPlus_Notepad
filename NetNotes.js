@@ -11,23 +11,31 @@ This video explores
 */
 
 Coax: {
-	"Coaxial":
-		"
+	"Etymology":
+		"Co-axial, or having 2 conductors?",
 	"cable standard":
 			`RG-${num}`,
+	"types": [
+		"rg-8",
+		"rg-58",
+		"rg-6"
+	]
 				
-	"cable technology":
+	"cable technology":[
 		center:
-			center: conductor
-				outside:
-					insulation
-						looks like white plastic
-				outsideInsulator:
-					another conductor
+			:conductor",
+		"2ndLayer":
+			insulation
+			"looks like white plastic"
+		"3rdLayer":
+			another conductor
+		"4thLayer":
+			insulation
+			"sheething"
 				
 			outer insulation
-		
-}
+	]//end cable technology
+}//end coax general
   
   
   
