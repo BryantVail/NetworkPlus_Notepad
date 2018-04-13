@@ -12,13 +12,28 @@ This video explores
 
 Coax: {
 	"Etymology":
-		"Co-axial, or having 2 conductors?",
-	"cable standard":
+		"Co-axial, or having 2 conductors around a single axis",
+	"cable standard": [
 			`RG-${num}`,
+			"Radio Grade (RG) rating",
+				"Ohm rating":
+					"measured in impedance",
+	],
 	"types": [
 		"rg-8",
 		"rg-58",
-		"rg-6"
+			"details":50 Ohm impedance
+			"connector":
+				"BNC connector",
+				"T-Connector":
+					"used to 'daisy chain'",
+				
+			
+				
+		"rg-6":
+			"F-Connector":
+				"screw on connector"
+			"used today"
 	]
 				
 	"cable technology":[
