@@ -73,8 +73,116 @@ let cableTechnologies = [
 		"etymology": "shielded twisted pair",
 		"description": "aluminum sheeting is used to shield interference, used in high interference invironments",
 
-	}//end STP,
-	
+	},//end STP,
+	{
+		"cableType":"Fiber Optic",
+		"construct":[
+			{
+				"core":"where light is sent down"
+			},
+			{
+				"cladding":"where light will reflect off of, staying inside the fiber",
+			},
+			{
+				"cable Jacket":"sheething"
+			}
+		],
+		"connectors":[
+			{
+				"ST connector": [
+					"round connector",
+					"earliest connectors",
+					"Twist to lock the connector in",
+					"common to BNC connector",
+					"popular in use"
+				]
+			},
+			{
+				"SC connector":[
+					"square connector",
+					"push straight in, straght out",
+					"has been in industry for a while",
+					"popular"
+				]
+			},
+			{
+				"FC connector": [
+					"round",
+					"screws in",
+					"just like coax FC connector"
+				]
+			},
+			{
+				"LC connector":[
+					"square",
+					"smaller than FC,SC, ST",
+				]
+			},
+			{
+				"MT-RJ":[
+					"smaller",
+					"both cable connectors almost look like one connection at this point"
+				]
+			}
+		],
+		"types":[
+			{
+				"type":"single-mode",
+				"description" : 
+					[
+						"Designed to work with 'lasers'",
+						"thinner fiber optic",
+						"cladding a little thicker",
+						{
+							"color":"yellow"
+						}
+					]
+				
+			}, 
+			{
+				"type" : "multimode",
+				"description":
+				[
+					"designed to propigate light",
+					"2 connectors, always",
+					"LED lights",
+					{
+					"color":"orange"
+					}
+				],
+			}
+		],
+		"Polishing":[
+			{
+				"notes":[
+					"must be polished before the connector is put on"
+				]
+				"types":[
+					{
+						"PC": "Polishing connector",
+						"notes":[
+							
+						]
+					},
+					{
+						"UPC":"ultra polishing connector",
+						"notes":[
+							"Much more difficult than PC optic"
+						]
+					},
+					{
+						"APC": "Angled Polishing Connector",
+						"notes":[
+							"angled",
+							"very little light loss",
+							"Much more difficult than PC optic"
+
+						]
+					}
+				]
+			}
+		]//end polishing
+	}//end fiber optic
 
 	
 
