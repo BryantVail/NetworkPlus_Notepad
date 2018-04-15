@@ -156,7 +156,7 @@ let cableTechnologies = [
 			{
 				"notes":[
 					"must be polished before the connector is put on"
-				]
+				],
 				"types":[
 					{
 						"PC": "Polishing connector",
