@@ -13,6 +13,12 @@ let cableTechnologies = [
 			"unshielded Twisted pair",
 		"description":
 			"twisted pair reduces interference by sending signals on a pair that are twisted",
+		"concerns":[
+			"electric motors",
+			"flourescent lights",
+			"rf interference"
+		],
+			
 		"kevlar":
 			"used to provide 'linear' strength, to be able to pull the line through conduit etc.",	
 		"categories":[
@@ -60,7 +66,15 @@ let cableTechnologies = [
 				]
 			}
 		]//end categories
+
 	},//end UTP	
+	{
+		"cableName": "STP",
+		"etymology": "shielded twisted pair",
+		"description": "aluminum sheeting is used to shield interference, used in high interference invironments",
+
+	}//end STP,
+	
 
 	
 
