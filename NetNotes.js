@@ -22,7 +22,7 @@ let theDaddyOfEthernet = {
 		"Bandwidth":"10mbps",
 		"length Of Run":"100 meters from node & switch"
 		"Node Capacity":"1024",
-		"cabling":"twisted pair, build to run on cat3
+		"cabling":"twisted pair, build to run on cat3"
 	}
 }
 
