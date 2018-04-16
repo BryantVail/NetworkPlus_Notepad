@@ -1,17 +1,10 @@
-// 3-2_UTP-STP-cabling_CablingAndTopology
+// 3-3_TheDaddyOfEthernet-10BaseT_CablingAndTopology
 /*
 Video Notes below:
-In this video, 	you will explore 
-	the different types and categories of 
-	twisted pair cabling used in computer networking.
+In this video, you will look at how 
+	coax-based Ethernet got transformed into Ethernet of Unshielded Twisted Pair.
 */
 
-"UTP":
-	"unshielded Twisted pair"
-	"description":
-		"twisted pair reduces interference by sending signals on a pair that are twisted"
-		"kevlar":
-			"
 
 
 
