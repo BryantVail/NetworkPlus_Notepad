@@ -1,29 +1,18 @@
-// 3-3_TheDaddyOfEthernet-10BaseT_CablingAndTopology
+//4-2_ConnectingSwitches_Mod
 /*
-Video Notes below:
-In this video, you will look at how 
-	coax-based Ethernet got transformed into Ethernet of Unshielded Twisted Pair.
+
+This video explores how:
+	switches are connected together to expand a network.
 */
 
-let theDaddyOfEthernet = {
-	"TokenRing":{
-		"company":"IBM",
-		"circa":"late 1980's ",
-		"description":{
-			"msau":"multi-station access unit"
-		},
-		"problems":[
-			"proprietary",
-			"Expensive"
-		]
-	}
-	"10BaseT":{
-		"NickName":"bus in the box",
-		"Bandwidth":"10mbps",
-		"length Of Run":"100 meters from node & switch"
-		"Node Capacity":"1024",
-		"cabling":"twisted pair, build to run on cat3"
-	}
+let ModernEthernet = 
+{
+		"Switches":{
+			"Connecting Switches":"Connecting switches to  connect more devices on the same network",
+			"Crossover Cable":[
+				"plug any port from 1 switch into any of the other ports."
+			]
+		}
 }
 
 
@@ -34,15 +23,54 @@ let theDaddyOfEthernet = {
 
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
