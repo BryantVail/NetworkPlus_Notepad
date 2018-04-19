@@ -36,8 +36,18 @@ ModernEthernet= [
 		"name":	"10GBaseLR",
 		"transmissionMedium":"fiber",
 		"transmissionStandard":{
-			"cableStandard":
+			"cableStandard":"single-mode",
+			"runSwitchToNodeInMeters":10,000, //10 Kilometers
+			"lightWavelengthInNanometers":1310	
 		},
+		
+	},
+	{
+		"name":"10GBaseER",
+		"transmissionMedium":"fiber",
+		"transmissionStandard":[
+				
+		]
 	},
 
 ]
