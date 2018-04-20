@@ -36,10 +36,16 @@ InstallingAPhysicalNetwork  = {
 					"definition":"standardize such things as: crimping cable, wall outlets per  linear foot of wall",
 					"standards":[
 						{
-							"standard":"",
+							"standard":"T568A",
+							"twistedPairOrder":[
+								
+							]
 						},
 						{
-							"standard":"",
+							"standard":"T568B",
+							"twistedPairOrder:[
+								
+							]
 						},
 					]
 				}//end TIA Standards
