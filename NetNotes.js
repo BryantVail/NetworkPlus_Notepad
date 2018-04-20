@@ -25,13 +25,26 @@ InstallingAPhysicalNetwork  = {
 						},
 						{}
 					],
-				},
+				},//end structured cabling
 				{
 					"term":"Patch Panel",
 					"definition":"1 end of the Horizontal Run; Separates solid core cable of 'horizontal run', to then go to patch cable to connect to the switch"
 		
-				},
-	}
+				},//end Patch Panel
+				{
+					"term":"TIA Standards",
+					"definition":"",
+					"standards":[
+						{
+							"standard":"",
+						},
+						{
+							"standard":"",
+						},
+					]
+				}//end TIA Standards
+		]//end terms
+	}//end "IntroductionToStructuredCabling":{
 }
 
 
