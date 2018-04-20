@@ -1,36 +1,38 @@
 // 4-4_SwitchBackbones_ModernEthernet
 /*
 Video Notes below:
-In this video, you will see how: 
-	backbone switches are used to enable varying speed networks to interconnect.
+In this video, you will learn about:
+	the basic component of structured cabling. 
+	These components are:
+		equipment room, 
+		horizontal runs, and 
+		the work area.
 */
 
-let ModernEthernet = ModernEthernet || {};
-ModernEthernet= [
-	{
+let InstallingAPhysicalNetwork = InstallingAPhysicalNetwork || {};
+InstallingAPhysicalNetwork  = {
+	"IntroductionToStructuredCabling":{
+		"notes":[
+			"Just a cable from switch to network device (laptop) is essentially an ethernet network",	
+		],
 		"terms":[
-			{
-				"term":"GBIC",
-				"definition":"Gigabit Interface Converter; Designed to be moved in/out of switches to manage backbones that run at higher speeds coming down to a switch",
-			},
-			{
-				"term":"STP",
-				"definition":`Spanning Tree Protocol; prevents ${BLoops}.`
-				"notes":[
-					"smart switch needed"
-				]
-			},
-			{
-				"term":"BLoop",
-				"definition": "Bridge Loop; looping switches with physical cabling can lead to packet loops.",
-				"notes":[
-					`${STP} automatically shuts down Bridge Loops (BLoops)`	
-				]
-			},
-		]//end terms
+				{
+					"term":"Structured Cabling",
+					"definition":"
+					"MakeUp":[
+						{
+							"Telecommunication Closet/Equipment Room":"switches, centralized devices",
+						},
+						{}
+					],
+				},
+				{
+					"term":"Patch Panel",
+					"definition":"1 end of the Horizontal Run; Separates solid core cable of 'horizontal run', to then go to patch cable to connect to the switch"
 		
-	},
-
+				},
+	}
+}
 
 
   
