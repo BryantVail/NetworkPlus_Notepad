@@ -15,7 +15,7 @@ ModernEthernet= [
 			},
 			{
 				"term":"STP",
-				"definition":"Spanning Tree Protocol; 
+				"definition":`Spanning Tree Protocol; prevents ${BLoops}.`
 				"notes":[
 					"smart switch needed"
 				]
