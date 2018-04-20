@@ -18,7 +18,7 @@ InstallingAPhysicalNetwork  = {
 		"terms":[
 				{
 					"term":"Structured Cabling",
-					"definition":"
+					"definition":"",
 					"MakeUp":[
 						{
 							"Telecommunication Closet/Equipment Room":"switches, centralized devices",
