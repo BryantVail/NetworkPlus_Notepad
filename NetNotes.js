@@ -43,6 +43,10 @@ InstallingAPhysicalNetwork  = {
 								
 							]
 						},
+					],
+					"notes":[
+						"color starts with a 'B' it never moves, 'B'lue is always in the middle, green & orange change,"	
+						" TIA 568'A' = alphabetical; 'green' then 'orange'
 					]
 				}//end TIA Standards
 		]//end terms
