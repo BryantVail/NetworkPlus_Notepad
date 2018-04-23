@@ -1,12 +1,8 @@
-// 4-4_SwitchBackbones_ModernEthernet
+// 5-2_CrimpingCables_InstallPhysNetwork
 /*
 Video Notes below:
-In this video, you will learn about:
-	the basic component of structured cabling. 
-	These components are:
-		equipment room, 
-		horizontal runs, and 
-		the work area.
+This video will help you understand 
+	the procedure involved in making your own patch cables.
 */
 
 let InstallingAPhysicalNetwork = InstallingAPhysicalNetwork || {};
